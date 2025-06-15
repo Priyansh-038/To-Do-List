@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.todo-container {
+  width: 90%;
+  max-width: 450px;
+  margin: 50px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  background: #2b2b2b;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+}
+
+.input-group button {
+  padding: 8px 12px;
+  background-color: #6BBF59;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #5aaa4e;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.controls select {
+  padding: 6px;
+  border-radius: 6px;
+  background: #2b2b2b;
+  color: white;
+  border: 1px solid #555;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.task-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.completed-task {
+  background-color: #6BBF59;
+  color: black;
+}
+
+.incomplete-task {
+  background-color: #D4AF37;
+  color: black;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.task-left input[type='checkbox'] {
+  transform: scale(1.2);
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.edit-input {
+  background: #fff;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: #000;
+}
